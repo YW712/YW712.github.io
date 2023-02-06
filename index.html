@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Home | Researcher's Website</title>
+    <style>
+      /* Add styles here */
+    </style>
   </head>
   <body>
     <header>
@@ -16,8 +19,40 @@
     </header>
     <main>
       <h1>Welcome to my Personal Website</h1>
+      <img src="[Insert image link here]" alt="[Insert image description here]">
       <p>I am a researcher in the field of [insert field here].</p>
       <p>On this website, you can learn more about my research interests and how to connect with me.</p>
+      <div class="tabs">
+        <input type="radio" id="tab1" name="tab-group" checked>
+        <label for="tab1">Introduction</label>
+        
+        <input type="radio" id="tab2" name="tab-group">
+        <label for="tab2">Education</label>
+        
+        <input type="radio" id="tab3" name="tab-group">
+        <label for="tab3">Experience</label>
+        
+        <div class="tab-content">
+          <div id="content1">
+            <p>I am a researcher in the field of [insert field here].</p>
+            <p>I have a passion for [insert interests here].</p>
+          </div>
+          <div id="content2">
+            <ul>
+              <li>Ph.D. in [insert field here] from [insert university here]</li>
+              <li>M.S. in [insert field here] from [insert university here]</li>
+              <li>B.S. in [insert field here] from [insert university here]</li>
+            </ul>
+          </div>
+          <div id="content3">
+            <ul>
+              <li>Research Scientist at [insert company name here]</li>
+              <li>Postdoctoral Fellow at [insert company name here]</li>
+              <li>Graduate Research Assistant at [insert university here]</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
       <p>&copy; [Your Name] [Year]</p>
